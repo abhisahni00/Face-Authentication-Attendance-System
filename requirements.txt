@@ -1,5 +1,22 @@
-flask
-opencv-python
-mediapipe
-numpy
-pandas
+# Face Authentication Attendance System
+# Optimized for Streamlit Cloud deployment
+
+# Deep Learning & Face Recognition
+deepface>=0.0.89
+tensorflow-cpu>=2.13.0,<2.16.0
+tf-keras
+
+# OpenCV - headless version for cloud
+opencv-python-headless>=4.8.0
+
+# Web Framework
+streamlit>=1.28.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Utilities
+numpy>=1.24.0,<2.0.0
+Pillow>=10.0.0
+scipy>=1.11.0
+pandas>=2.0.0
